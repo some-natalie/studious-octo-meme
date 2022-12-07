@@ -3,7 +3,7 @@ name: 'Dependency Review'
 on: 
   push:
     paths:
-      - "packages.json"
+      - "package.json"
 
 permissions:
   contents: read
